@@ -1,0 +1,22 @@
+nr_free_pages 736005 nr_inactive_anon 260604 nr_active_anon 682966 nr_inactive_file 101556 nr_active_file 141563 nr_unevictable 41 nr_mlock 41 nr_anon_pages 673886 nr_mapped 237803 nr_file_pages 514468 
+nr_free_pages 738005 nr_inactive_anon 260232 nr_active_anon 681026 nr_inactive_file 101560 nr_active_file 141682 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671945 nr_mapped 237271 nr_file_pages 514218 
+nr_free_pages 738129 nr_inactive_anon 260232 nr_active_anon 680937 nr_inactive_file 101560 nr_active_file 141682 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671857 nr_mapped 237277 nr_file_pages 514218 
+nr_free_pages 738102 nr_inactive_anon 260232 nr_active_anon 680760 nr_inactive_file 101560 nr_active_file 141682 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671681 nr_mapped 237277 nr_file_pages 514218 
+nr_free_pages 738024 nr_inactive_anon 260242 nr_active_anon 680903 nr_inactive_file 101560 nr_active_file 141684 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671824 nr_mapped 237303 nr_file_pages 514230 
+nr_free_pages 734241 nr_inactive_anon 261368 nr_active_anon 683306 nr_inactive_file 101570 nr_active_file 141709 nr_unevictable 41 nr_mlock 41 nr_anon_pages 674226 nr_mapped 238292 nr_file_pages 515392 
+nr_free_pages 734237 nr_inactive_anon 261375 nr_active_anon 683349 nr_inactive_file 101560 nr_active_file 141715 nr_unevictable 41 nr_mlock 41 nr_anon_pages 674270 nr_mapped 238300 nr_file_pages 515394 
+nr_free_pages 738020 nr_inactive_anon 260253 nr_active_anon 681032 nr_inactive_file 101555 nr_active_file 141720 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671954 nr_mapped 237103 nr_file_pages 518689 
+nr_free_pages 734385 nr_inactive_anon 263481 nr_active_anon 681221 nr_inactive_file 101550 nr_active_file 141733 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672142 nr_mapped 237057 nr_file_pages 517507 
+nr_free_pages 737892 nr_inactive_anon 260097 nr_active_anon 681044 nr_inactive_file 101550 nr_active_file 141734 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671967 nr_mapped 237120 nr_file_pages 514124 
+nr_free_pages 738136 nr_inactive_anon 260080 nr_active_anon 681046 nr_inactive_file 101550 nr_active_file 141734 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671969 nr_mapped 237104 nr_file_pages 514095 
+nr_free_pages 737950 nr_inactive_anon 260068 nr_active_anon 681088 nr_inactive_file 101550 nr_active_file 141734 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672010 nr_mapped 237130 nr_file_pages 514095 
+nr_free_pages 737760 nr_inactive_anon 260068 nr_active_anon 681234 nr_inactive_file 101550 nr_active_file 141734 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672156 nr_mapped 237136 nr_file_pages 514095 
+nr_free_pages 737977 nr_inactive_anon 260068 nr_active_anon 681294 nr_inactive_file 101505 nr_active_file 141736 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672209 nr_mapped 237151 nr_file_pages 514052 
+nr_free_pages 737822 nr_inactive_anon 260068 nr_active_anon 681220 nr_inactive_file 101505 nr_active_file 141737 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672141 nr_mapped 237152 nr_file_pages 514053 
+nr_free_pages 737884 nr_inactive_anon 260080 nr_active_anon 681263 nr_inactive_file 101505 nr_active_file 141737 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672169 nr_mapped 237158 nr_file_pages 514065 
+nr_free_pages 737764 nr_inactive_anon 260080 nr_active_anon 681416 nr_inactive_file 101505 nr_active_file 141740 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672338 nr_mapped 237158 nr_file_pages 514068 
+nr_free_pages 733676 nr_inactive_anon 264491 nr_active_anon 681022 nr_inactive_file 101505 nr_active_file 141740 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671945 nr_mapped 237154 nr_file_pages 518479 
+nr_free_pages 733397 nr_inactive_anon 264482 nr_active_anon 681009 nr_inactive_file 101505 nr_active_file 141740 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671931 nr_mapped 237146 nr_file_pages 518470 
+nr_free_pages 733657 nr_inactive_anon 264488 nr_active_anon 681064 nr_inactive_file 101505 nr_active_file 141740 nr_unevictable 41 nr_mlock 41 nr_anon_pages 671986 nr_mapped 237156 nr_file_pages 518476 
+nr_free_pages 733463 nr_inactive_anon 264489 nr_active_anon 681235 nr_inactive_file 101505 nr_active_file 141740 nr_unevictable 41 nr_mlock 41 nr_anon_pages 672157 nr_mapped 237157 nr_file_pages 518477 
+nr_free_pages 738857 nr_inactive_ano
