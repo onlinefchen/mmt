@@ -5,19 +5,19 @@ from view import *
 
 
 def init_exec_env(param):
-    local_windows = windows()
+    local_linux = linux()
     local_device = device()
-    local_windows.cmd("adb reboot bootloader")
+    local_linux.cmd("adb reboot bootloader")
     print "update image .... begin"
-    local_windows.exec_bat(param)
+    local_linux.exec_bat(param)
     print "wait for device ..."
     local_device.wait_device("")
     print "install apk ..."
-    local_windows.exec_bat("D:/Test-Tool/all_in_one/install.bat")
+    local_linux.exec_bat("D:/Test-Tool/all_in_one/install.bat")
     print "push ..."
-    local_windows.cmd("adb push iontest /data")
-    local_windows.cmd("adb shell chmod +x /data/iontest")
-    local_windows.cmd("adb reboot")
+    local_linux.cmd("adb push iontest /data")
+    local_linux.cmd("adb shell chmod +x /data/iontest")
+    local_linux.cmd("adb reboot")
     local_device.wait_device("")
 
 def do_test(test, infolist, exec_cmd):
@@ -50,9 +50,8 @@ if __name__ == '__main__':
         
     first_test = "4+0.5"
     sec_test = "2+2"
-    init_exec_env("D:/Chicago/first/image/update_sec_hi3660.bat")
+    #init_exec_env("D:/Chicago/first/image/update_sec_hi3660.bat")
     do_test(first_test, infolist, exec_cmd)
-    init_exec_env("D:/Chicago/secound/image/update_sec_hi3660.bat")
+    #init_exec_env("D:/Chicago/secound/image/update_sec_hi3660.bat")
     do_test(sec_test, infolist, exec_cmd)
     local_view.draw_compare_figure(first_test, sec_test, "", "memory.png")
-    

@@ -20,11 +20,18 @@ class windows:
         os.chdir(cur_dir)
 
 class linux:
-        def cmd(self, cmd):
-            "TODO"
+    def cmd(self, Param):
+        list = os.popen(Param).readlines()
+        for line in list:
+            line.strip("\n")
+            line.strip("\r")
+            #print len(list)
+            return list
+
             
-            
-# if __name__ == '__main__':
-#     local_windows = windows()
-#     ret = local_windows.cmd("adb shell cat /proc/meminfo")
-#     print ret.split()
+#if __name__ == '__main__':
+    ##local_windows = windows()
+    ##ret = local_windows.cmd("adb shell cat /proc/meminfo")
+    #local_windows = windows()
+    #ret = local_windows.cmd("adb shell cat /proc/meminfo")
+    #print ret.split()
