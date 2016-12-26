@@ -1,5 +1,6 @@
 import os
 import subprocess
+import requests
 
 class windows:
     def cmd(self, cmd):
@@ -28,7 +29,11 @@ class linux:
             #print len(list)
             return list
 
-            
+    def download(self, url, savename):
+        r = requests.get(url)
+        with open(savename, "wb") as code:
+            code.write(r.content)
+
 #if __name__ == '__main__':
     ##local_windows = windows()
     ##ret = local_windows.cmd("adb shell cat /proc/meminfo")
